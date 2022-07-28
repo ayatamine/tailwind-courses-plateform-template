@@ -1,0 +1,14 @@
+{
+  "name": "aqar",
+  "version": "1.0.0",
+  "description": "template for real estate or aqar",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/style.css -o public/css/style.css --watch"
+  },
+  "author": "ayat ahmed amine",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.1.6"
+  }
+}
