@@ -5,15 +5,19 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                'body': '#f5f5f77a',
+                'body': '#f0f5fb',
                 'selected-text': '#A3A3FF',
-                'theme': '#2e3f73',
+                'theme': '#2e6d90',
                 'nav': '#e5e7eb',
-                'secondary': '#9191A4',
-                'badge': '#3F3F51',
-                'input-border': '#fff',
-                'input': '#fff',
-                'defaut-text-color':'#001f37'
+                'secondary': '#474645',
+                'badge': '#ff5672',
+                // 'input-border': '#fff',
+                // 'input': '#fff',
+                'defaut-text-color':'#474547',
+                'btn-bg' :'#ff5672',
+                'main-hover-color' :'#ff5672',
+                'darken-bg':'#252841'
+
             },
             fontFamily: {
                 'cairo': ["'Cairo'", 'sans-serif']
@@ -24,6 +28,7 @@ module.exports = {
                 }
             }
         },
+        
     },
     plugins: [],
   }
